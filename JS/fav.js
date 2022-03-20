@@ -99,7 +99,7 @@ async function getFavs (user) {
                 link.appendChild(btn2);
 
                 title.innerHTML = `${books[i].title}`;
-                author.innerHTML = `Written by: ${books[i].author}`;
+                author.innerHTML = `${books[i].author}`;
                 img.src = `${books[i].img}`;
                 desc.innerHTML = `${books[i].desc}`;
                 btn1.innerHTML = "Delete fav";
