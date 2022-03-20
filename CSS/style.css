@@ -1,0 +1,211 @@
+/*
+#E3E7D3
+#BDC2BF
+#989C94
+#25291C
+#E6E49F
+*/
+
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(
+      83.2deg,
+      #E6E49F 10.8%,
+      #989C94 94.3%
+    );
+  }
+
+.loaderContainer {
+    top: 0;
+    background-color: #f1f2f3;
+    position: fixed;
+    /* width: 40%;
+    height: 40%; */
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.loader {
+    width:70vw;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #25291C;
+    width: 12em;
+    height: 17em;
+    background-color: #E3E7D3;
+    margin: 0.5em;
+    border-radius: 0.4em;
+    
+}
+.img {
+    height: 30%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__articles {
+    
+    height: 85%;
+    width: 85%;
+    margin-top: 0.5em;
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.main__record, .main__fav {
+    height: 85%;
+    width: 85%;
+    margin-top: 0.5em;
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.main__record .article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #25291C;
+    width: 12em;
+    height: 30em;
+    background-color: #E3E7D3;
+}
+
+.main__fav .article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #25291C;
+    width: 12em;
+    height: 30em;
+    background-color: #E3E7D3;
+}
+
+p {
+    margin: 0.5em;
+    color: #383d2a;
+}
+
+.section__encode {
+    border: 1px solid #25291C;
+    font-size: 1.2em;
+    background-color: #989C94;
+    padding: 0.2em;
+    color: #E6E49F;
+    border-radius: 0.2em;
+}
+
+.section__title {
+    color: #25291C;
+}
+
+.title {
+    border: 1px solid #25291C;
+    font-size: 1.2em;
+    background-color: #989C94;
+    padding: 0.2em;
+    color: #E6E49F;
+    border-radius: 0.2em;
+}
+
+.headerContainer {
+    font-size: 3em;
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#googleLogin {
+    margin-bottom: 2em;
+    width: 15em;
+    height: 4.2em;
+    background-color: #25291C;
+    color: #E6E49F;
+    cursor: pointer;
+}
+
+.back {
+    width: 10em;
+    height: 3em;
+    background-color: #25291C;
+    color: #E6E49F;
+    cursor: pointer;
+}
+
+#googleLogout, #favorites {
+    width: 6em;
+    height: 2em;
+    background-color: #25291C;
+    color: #E6E49F;
+    cursor: pointer;
+    margin: 2em 2em 0 2em;
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+}
+
+#googleLogin:hover {
+    background-color: #E6E49F;
+    color: #25291C;
+    
+}
+
+.noLogin {
+    background-color: #25291C;
+    color: #E6E49F;
+    cursor: pointer;
+}
+
+.noLogin:hover {
+    background-color: #E6E49F;
+    color: #25291C;
+}
+
+.section__button {
+    width: 3.5em;
+    height: 2em;
+    background-color: #25291C;
+    color: #E6E49F;
+    cursor: pointer;
+}
+
+.btn1 {
+    width: 5em;
+    height: 2em;
+    background-color: #E6E49F;
+    color: #25291C;
+    cursor: pointer;  
+}
